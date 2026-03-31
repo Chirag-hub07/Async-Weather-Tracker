@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #120a0a;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.top-section {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background: #f2f2f2;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #ff7a2f;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e56722;
+}
+
+#Search-history button {
+    margin: 5px;
+    background: #ff7a2f;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#Search-history button:hover {
+    background: #e56722;
+}
+
+
+#wheather-data {
+    margin-top: 10px;
+}
+
+.weather-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #e9e9e9;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+
+    border-left: 4px solid #ff7a2f; 
+    border-radius: 5px;
+}
+
+.weather-row span:first-child {
+    font-weight: 500;
+    color: #333;
+}
+
+.weather-row span:last-child {
+    font-weight: bold;
+    color: #111;
+}
+
+.weather-row:hover {
+    background: #facba5;
+    transition: 0.2s;
+}
+
+.console-box {
+    margin-top: 20px;
+    background: #fcfcfd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#console-output {
+    background: #212157;
+    color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 13px;
+    height: 120px;
+    overflow-y: auto;
+}
+
+.log {
+    margin: 3px 0;
+}
