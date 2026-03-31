@@ -78,7 +78,9 @@ const API_KEY = "1a761d3bb408836cd1af3641ce1604c9";
 ## 📄 Project Restrictions
 
 ❌ No Bootstrap, Tailwind, or UI libraries
+
 ❌ No JavaScript frameworks
+
 ✅ Only plain HTML, CSS, and JavaScript
 
 ---
@@ -86,7 +88,9 @@ const API_KEY = "1a761d3bb408836cd1af3641ce1604c9";
 ## 👨‍💻 Author
 
 **Chirag Virdi**
+
 B.Tech CSE (Data Science)
+
 Frontend & JavaScript Practice Project
 
 ---
