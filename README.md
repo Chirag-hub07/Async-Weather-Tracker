@@ -63,16 +63,6 @@ By completing this project, you will understand:
 
 ---
 
-## 🔑 API Configuration
-
-* Sign up at https://openweathermap.org/
-* Generate your API key
-* Replace it in your `script.js` file:
-
-```javascript
-const API_KEY = "1a761d3bb408836cd1af3641ce1604c9";
-```
-
 ---
 
 ## 📄 Project Restrictions
