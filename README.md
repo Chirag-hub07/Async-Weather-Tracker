@@ -63,8 +63,6 @@ By completing this project, you will understand:
 
 ---
 
----
-
 ## 📄 Project Restrictions
 
 ❌ No Bootstrap, Tailwind, or UI libraries
